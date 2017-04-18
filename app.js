@@ -11,6 +11,14 @@ var msg=new msgs();
 console.log(msg.first);
 
 
+// required does not need file extension it will look for file or folder with the name and which ever finds first will get that other wise fail if not able to find either
+// in case if no file found it will for folder and pick up index.js file, that why file should be index.js not any other
+var logger=require("./logger");   
+logger.log("This is from logger");
+
+var underscore=require("underscore");
+
+
 // case 3 calling
 // var msg=new msgs();
 // console.log(msg.first);

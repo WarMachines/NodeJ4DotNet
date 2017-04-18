@@ -2,8 +2,12 @@
   "name": "fun-with-node",
   "version": "0.0.0",
   "description": "FunWithNode",
-  "main": "server.js",
+  "main": "app.js",
   "author": {
     "name": "SAURABH"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "underscore": "^1.8.3"
   }
 }
